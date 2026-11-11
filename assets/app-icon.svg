@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">RepoConvoy app icon</title>
+  <desc id="desc">An orange robot van with teal eyes, a Git branch, and dark wheels on a navy rounded square.</desc>
+  <!-- The opaque badge provides a crisp edge in light and dark interfaces. -->
+  <rect x="2" y="2" width="92" height="92" rx="21" fill="#142739" stroke="#375565" stroke-width="2"/>
+  <path d="M17 29 Q20 22 31 22 H65 Q76 22 79 34 L82 63 Q83 69 75 72 H23 Q14 71 14 62 V43 Q14 32 17 29Z" fill="#F77C2F"/>
+  <path d="M21 30 Q26 25 34 25 H64 Q70 25 74 31 Q45 28 19 37Z" fill="#FFB366"/>
+  <rect x="21" y="37" width="35" height="27" rx="8" fill="#172E40"/>
+  <ellipse cx="32" cy="49" rx="3" ry="4.5" fill="#80E3C7"/>
+  <ellipse cx="46" cy="49" rx="3" ry="4.5" fill="#80E3C7"/>
+  <path d="M36 57 Q39 60 42 57" fill="none" stroke="#FFB366" stroke-width="3" stroke-linecap="round"/>
+  <path d="M64 58 V41 H75 M64 49 Q65 59 74 58" fill="none" stroke="#173246" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="40" r="2.8" fill="#80E3C7" stroke="#173246" stroke-width="1.5"/>
+  <circle cx="76" cy="41" r="2.8" fill="#80E3C7" stroke="#173246" stroke-width="1.5"/>
+  <circle cx="75" cy="59" r="2.8" fill="#80E3C7" stroke="#173246" stroke-width="1.5"/>
+  <path d="M23 70 H75" stroke="#172E40" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="30" cy="73" r="8" fill="#122738"/>
+  <circle cx="30" cy="73" r="4" fill="#607387"/>
+  <circle cx="67" cy="73" r="8" fill="#122738"/>
+  <circle cx="67" cy="73" r="4" fill="#607387"/>
+</svg>

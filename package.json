@@ -1,0 +1,12 @@
+{
+  "name": "repoconvoy-ui-tests",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Optional Playwright regression tests; RepoConvoy backend and runtime are Rust",
+  "scripts": {
+    "test:ui": "node tests/browser/race.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.65.0"
+  }
+}

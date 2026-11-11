@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="title desc">
+  <title id="title">RepoConvoy mascot</title>
+  <desc id="desc">A friendly orange delivery robot van with a smiling teal-eyed windshield, a Git branch emblem, and two sturdy dark wheels.</desc>
+  <ellipse cx="204" cy="258" rx="151" ry="13" fill="#142739" opacity=".16"/>
+  <!-- The chassis and cargo cabin are drawn as simple original vector shapes. -->
+  <path d="M73 102 Q79 70 118 69 H282 Q332 69 344 111 L356 191 Q359 217 337 226 L315 232 H104 Q59 230 53 198 L55 147 Q55 113 73 102Z" fill="#142739"/>
+  <path d="M77 108 Q83 79 120 79 H277 Q320 79 332 111 L344 187 Q350 208 330 216 L310 221 H105 Q69 219 64 193 L65 146 Q65 116 77 108Z" fill="#F77C2F"/>
+  <path d="M84 109 Q95 84 125 84 H275 Q308 84 323 106 Q255 99 199 110 Q123 123 76 126Z" fill="#FFAC61"/>
+  <path d="M66 185 Q71 212 107 213 H305 Q332 211 345 197 Q345 216 327 219 L307 224 H107 Q72 222 66 200Z" fill="#D85B28"/>
+  <!-- Angled windshield, not a traced element of the supplied raster. -->
+  <path d="M87 121 Q92 105 111 105 L183 108 Q199 109 201 128 L201 179 Q200 195 184 198 L104 195 Q84 192 82 173 L82 140 Q82 128 87 121Z" fill="#142739"/>
+  <path d="M94 125 Q98 114 112 114 L181 117 Q191 118 192 131 V177 Q191 188 181 189 L106 186 Q92 184 91 171 V141 Q91 130 94 125Z" fill="#23475A"/>
+  <path d="M104 123 Q101 137 101 173" fill="none" stroke="#3B7B80" stroke-width="5" stroke-linecap="round" opacity=".68"/>
+  <ellipse cx="125" cy="150" rx="6" ry="9" fill="#80E3C7"/>
+  <ellipse cx="169" cy="151" rx="6" ry="9" fill="#80E3C7"/>
+  <path d="M139 171 Q148 181 157 170" fill="none" stroke="#FFB366" stroke-width="6" stroke-linecap="round"/>
+  <path d="M220 115 V193" fill="none" stroke="#B74926" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+  <!-- Three-node Git branch sign, sized to remain clear at README scale. -->
+  <path d="M262 172 V137 H300 M262 155 Q262 179 296 178" fill="none" stroke="#183246" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="262" cy="135" r="8" fill="#80E3C7" stroke="#183246" stroke-width="5"/>
+  <circle cx="301" cy="137" r="8" fill="#80E3C7" stroke="#183246" stroke-width="5"/>
+  <circle cx="297" cy="178" r="8" fill="#80E3C7" stroke="#183246" stroke-width="5"/>
+  <path d="M73 207 H94 M323 207 H341" stroke="#FFB366" stroke-width="6" stroke-linecap="round"/>
+  <path d="M82 225 H327" stroke="#142739" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="116" cy="226" r="24" fill="#142739"/>
+  <circle cx="116" cy="226" r="14" fill="#455568"/>
+  <circle cx="116" cy="226" r="6" fill="#85DCCA"/>
+  <circle cx="299" cy="226" r="24" fill="#142739"/>
+  <circle cx="299" cy="226" r="14" fill="#455568"/>
+  <circle cx="299" cy="226" r="6" fill="#85DCCA"/>
+</svg>

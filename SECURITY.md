@@ -1,0 +1,5 @@
+# Security
+
+RepoConvoy is **early development**, not a hardened service. The current local server must bind only `127.0.0.1`; it has no authentication or hostile-local-process boundary. Do not expose its port to a network or register confidential repositories in an unaudited build. Register only Git repositories you trust: repository-configured filters, fsmonitor commands and hooks can execute during ordinary Git status/checkout operations. A Git worktree separates candidates but does **not** sandbox hostile repository configuration or processes. The intended AI worker uses normal Codex workspace-write permissions; trusted controller code, not the model's tools, owns candidate Git commits.
+
+The product contract requires per-repository write isolation, exact candidate SHA binding, independent nonempty product tests, and a human approval gate before any remote push or PR/MR. These are **not implemented** merely because their requirements are documented. Report a vulnerability through GitHub's private vulnerability reporting when available; do not disclose credentials, source code or sensitive reproduction data in a public issue.
