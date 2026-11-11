@@ -129,7 +129,16 @@ fn two_sources_have_independent_single_writer_candidates() {
     assert!(!a_ready.diff.contains("only-b.txt"));
     assert!(b_ready.diff.contains("only-b.txt"));
     assert!(!b_ready.diff.contains("only-a.txt"));
-    assert_eq!(workspace.candidate(&a).unwrap().source(), a.as_path());
+    assert_eq!(
+        workspace
+            .candidate(&a)
+            .unwrap()
+            .source()
+            .canonicalize()
+            .unwrap(),
+        a.canonicalize().unwrap(),
+        "the candidate must stay bound to the same physical source despite Windows 8.3 aliases"
+    );
     assert_ne!(
         workspace.candidate(&a).unwrap().branch(),
         workspace.candidate(&b).unwrap().branch()
